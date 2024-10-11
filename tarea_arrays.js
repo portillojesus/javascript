@@ -16,7 +16,7 @@ function sumarPares(numeros) {
     // tu código aquí
     numeros.forEach(element => {
         if(element % 2 === 0){
-            suma = suma = element;
+            suma = suma + element;
         }
     });
     return suma;
